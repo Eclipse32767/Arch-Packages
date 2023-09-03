@@ -1,0 +1,81 @@
+[submodule "surface/rofi-lbonn-wayland"]
+	path = surface/rofi-lbonn-wayland
+	url = https://aur.archlinux.org/rofi-lbonn-wayland.git
+[submodule "surface/paru"]
+	path = surface/paru
+	url = https://aur.archlinux.org/paru.git
+[submodule "surface/swww"]
+	path = surface/swww
+	url = https://aur.archlinux.org/swww.git
+[submodule "surface/swayosd-git"]
+	path = surface/swayosd-git
+	url = https://aur.archlinux.org/swayosd-git.git
+[submodule "surface/grimblast-git"]
+	path = surface/grimblast-git
+	url = https://aur.archlinux.org/grimblast-git.git
+[submodule "surface/wlogout"]
+	path = surface/wlogout
+	url = https://aur.archlinux.org/wlogout.git
+[submodule "surface/swaync"]
+	path = surface/swaync
+	url = https://aur.archlinux.org/swaync.git
+[submodule "surface/swaylock-effects"]
+	path = surface/swaylock-effects
+	url = https://aur.archlinux.org/swaylock-effects.git
+[submodule "surface/nwg-look"]
+	path = surface/nwg-look
+	url = https://aur.archlinux.org/nwg-look.git
+[submodule "photic/librewolf-bin"]
+	path = photic/librewolf-bin
+	url = https://aur.archlinux.org/librewolf-bin.git
+[submodule "photic/brave-bin"]
+	path = photic/brave-bin
+	url = https://aur.archlinux.org/brave-bin.git
+[submodule "photic/waypipe"]
+	path = photic/waypipe
+	url = https://aur.archlinux.org/waypipe.git
+[submodule "photic/mpvpaper"]
+	path = photic/mpvpaper
+	url = https://aur.archlinux.org/mpvpaper.git
+[submodule "photic/labwc"]
+	path = photic/labwc
+	url = https://aur.archlinux.org/labwc.git
+[submodule "photic/wev"]
+	path = photic/wev
+	url = https://aur.archlinux.org/wev.git
+[submodule "photic/showmethekey"]
+	path = photic/showmethekey
+	url = https://aur.archlinux.org/showmethekey.git
+[submodule "photic/sway-audio-idle-inhibit-git"]
+	path = photic/sway-audio-idle-inhibit-git
+	url = https://aur.archlinux.org/sway-audio-idle-inhibit-git.git
+[submodule "abyssal/1password"]
+	path = abyssal/1password
+	url = https://aur.archlinux.org/1password.git
+[submodule "abyssal/cemu-bin"]
+	path = abyssal/cemu-bin
+	url = https://aur.archlinux.org/cemu-bin.git
+[submodule "photic/doas-sudo-shim"]
+	path = photic/doas-sudo-shim
+	url = https://aur.archlinux.org/doas-sudo-shim.git
+[submodule "photic/fastfetch"]
+	path = photic/fastfetch
+	url = https://aur.archlinux.org/fastfetch.git
+[submodule "abyssal/joycond-git"]
+	path = abyssal/joycond-git
+	url = https://aur.archlinux.org/joycond-git
+[submodule "abyssal/protonup-qt-bin"]
+	path = abyssal/protonup-qt-bin
+	url = https://aur.archlinux.org/protonup-qt-bin
+[submodule "abyssal/sc-controller"]
+	path = abyssal/sc-controller
+	url = https://aur.archlinux.org/sc-controller
+[submodule "abyssal/scarab-bin"]
+	path = abyssal/scarab-bin
+	url = https://aur.archlinux.org/scarab-bin
+[submodule "abyssal/unityhub"]
+	path = abyssal/unityhub
+	url = https://aur.archlinux.org/unityhub
+[submodule "photic/webcord-bin"]
+	path = photic/webcord-bin
+	url = https://aur.archlinux.org/webcord-bin
