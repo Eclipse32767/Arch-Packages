@@ -1,0 +1,21 @@
+pkgname=tetra-theme
+pkgver=0.1.0
+pkgrel=0
+pkgdesc="Oceania's theme creation tool"
+arch=('x86_64')
+url="https://github.com/Eclipse32767/Tetra"
+license=('GPL')
+depends=('gcc-libs')
+makedepends=('cargo')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/Eclipse32767/Tetra/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+	cd "$pkgname-$pkgver"
+	export RUSTUP_TOOLCHAIN=stable
+	cargo build --release
+}
+package() {
+	cd "$pkgname-$pkgver"
+	install -Dm755 "target/release/tetra" "$pkgdir/usr/bin/tetra"
+}
