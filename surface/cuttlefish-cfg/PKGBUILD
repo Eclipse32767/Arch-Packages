@@ -1,5 +1,5 @@
 pkgname=cuttlefish-cfg
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=0
 pkgdesc="Oceania's config tool, entirely accessible with the keyboard"
 arch=('x86_64')

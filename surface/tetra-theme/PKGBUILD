@@ -1,5 +1,5 @@
 pkgname=tetra-theme
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=0
 pkgdesc="Oceania's theme creation tool"
 arch=('x86_64')
