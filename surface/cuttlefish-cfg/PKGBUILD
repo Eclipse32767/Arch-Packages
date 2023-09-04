@@ -11,12 +11,12 @@ source=("Cuttlefish-$pkgver.tar.gz::https://github.com/Eclipse32767/Cuttlefish/a
 sha256sums=('SKIP')
 
 build() {
-	cd "$pkgname-$pkgver"
+	cd "Cuttlefish-$pkgver"
 	export RUSTUP_TOOLCHAIN=stable
 	cargo build --release
 }
 package() {
-	cd "$pkgname-$pkgver"
+	cd "Cuttlefish-$pkgver"
 	install -Dm755 "target/release/cuttlefish" "$pkgdir/usr/bin/cuttlefish-cfg"
 	install -Dm755 "target/release/sunfish" "$pkgdir/usr/bin/sunfish-man"
 }
