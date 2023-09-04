@@ -1,0 +1,13 @@
+pkgname=oceania-full
+pkgver=0.1.0
+pkgrel=0
+pkgdesc="Metapackage containing the full oceania desktop"
+arch=('x86_64')
+license=('GPL')
+depends=('oceania-minimal', 'narwhal', 'tetra-theme', 'kitty', 'nwg-look', 'grimblast-git')
+
+
+build() {
+}
+prepare() {
+}

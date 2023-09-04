@@ -1,0 +1,6 @@
+#!/bin/bash
+
+swww init &
+waybar &
+swayosd-server &
+swaync &

@@ -1,0 +1,17 @@
+pkgname=oceania-shell
+pkgver=0.1.0
+pkgrel=0
+pkgdesc="Essentially a metapackage containing the bare minimum needed for a working desktop"
+arch=('x86_64')
+license=('GPL')
+depends=('bash','waybar','swww','swayosd','swaync')
+source=("oceania-shell")
+sha256sums=('SKIP')
+
+build() {
+}
+
+package() {
+	install -Dm755 "oceania-shell" "$pkgdir/usr/bin/oceania-shell"
+}
+

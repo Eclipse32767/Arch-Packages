@@ -1,0 +1,13 @@
+pkgname=oceania-minimal
+pkgver=0.1.0
+pkgrel=0
+pkgdesc="Metapackage containing everything needed for a desktop experience where the user brings their own apps for various roles"
+arch=('x86_64')
+license=('GPL')
+depends=('oceania-shell', 'cuttlefish-cfg', 'rofi-lbonn-wayland', 'wlogout', 'swayidle', 'swaylock-effects', 'xdg-desktop-portal-hyprland')
+
+
+build() {
+}
+prepare() {
+}
