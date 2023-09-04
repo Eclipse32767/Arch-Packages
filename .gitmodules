@@ -79,3 +79,6 @@
 [submodule "photic/webcord-bin"]
 	path = photic/webcord-bin
 	url = https://aur.archlinux.org/webcord-bin
+[submodule "surface/reflector-simple"]
+	path = surface/reflector-simple
+	url = https://aur.archlinux.org/reflector-simple.git
