@@ -82,3 +82,6 @@
 [submodule "surface/reflector-simple"]
 	path = surface/reflector-simple
 	url = https://aur.archlinux.org/reflector-simple.git
+[submodule "photic/mbpfan-git"]
+	path = photic/mbpfan-git
+	url = https://aur.archlinux.org/mbpfan-git.git
