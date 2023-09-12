@@ -1,5 +1,5 @@
 pkgname=narwhal
-pkgver=0.1.2
+pkgver=0.1.3
 pkgrel=0
 pkgdesc="Oceania's own keyboard-driven file manager, with an emphasis on keyboard usability"
 arch=('x86_64')
@@ -18,4 +18,5 @@ build() {
 package() {
 	cd "Narwhal-$pkgver"
 	install -Dm755 "target/release/narwhal" "$pkgdir/usr/bin/narwhal"
+	install -Dm644 "narwhal.desktop" "$pkgdir/usr/share/applications/narwhal.desktop"
 }
