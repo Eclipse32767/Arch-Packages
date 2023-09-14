@@ -1,11 +1,11 @@
 pkgname=cuttlefish-cfg
 pkgver=0.1.3
-pkgrel=0
+pkgrel=1
 pkgdesc="Oceania's config tool, entirely accessible with the keyboard"
 arch=('x86_64')
 url="https://github.com/Eclipse32767/Cuttlefish"
 license=('GPL')
-depends=('gcc-libs')
+depends=('gcc-libs' 'hyprland')
 makedepends=('cargo')
 source=("Cuttlefish-$pkgver.tar.gz::https://github.com/Eclipse32767/Cuttlefish/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')

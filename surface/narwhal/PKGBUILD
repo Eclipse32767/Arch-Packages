@@ -1,11 +1,11 @@
 pkgname=narwhal
 pkgver=0.1.4
-pkgrel=0
+pkgrel=1
 pkgdesc="Oceania's own keyboard-driven file manager, with an emphasis on keyboard usability"
 arch=('x86_64')
 url="https://github.com/Eclipse32767/Narwhal"
 license=('GPL')
-depends=('gcc-libs')
+depends=('gcc-libs' 'xdg-utils' 'adwaita-icon-theme')
 makedepends=('cargo')
 source=("Narwhal-$pkgver.tar.gz::https://github.com/Eclipse32767/Narwhal/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')
