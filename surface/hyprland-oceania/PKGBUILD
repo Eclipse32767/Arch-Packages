@@ -4,7 +4,7 @@
 pkgname=hyprland-oceania
 provides=('hyprland')
 conflicts=('hyprland')
-pkgver=0.29.1
+pkgver=0.30.0
 pkgrel=1
 pkgdesc='a highly customizable dynamic tiling Wayland compositor, custom PKGBUILD to ensure users get the most up to date version'
 arch=(x86_64 aarch64)
