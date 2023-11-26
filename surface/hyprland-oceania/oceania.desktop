@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Oceania
+Comment=A dynamic tiling desktop environment with accessibility at the forefront
+Exec=OceaniaHyprland
+Type=Application
